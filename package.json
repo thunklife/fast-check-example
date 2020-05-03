@@ -1,0 +1,18 @@
+{
+  "name": "fast-check-example",
+  "version": "0.0.1",
+  "description": "Example of property based testing using fast-check",
+  "main": "index.js",
+  "scripts": {
+    "schema": "jest schema.test.js",
+    "add": "node add.js",
+    "multiply": "node add.js"
+  },
+  "author": "thunklife",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "17.1.1",
+    "fast-check": "1.24.2",
+    "jest": "25.5.2"
+  }
+}
