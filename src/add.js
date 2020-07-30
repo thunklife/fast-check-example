@@ -4,7 +4,7 @@ const identity = fc.property(fc.integer(), fc.constant(0), (a, b) => a + b === a
 
 console.log(fc.check(identity))
 
-const commutative = fc.property(fc.integer(), fc.integer(), (a, b, c) => a + b === b + a)
+const commutative = fc.property(fc.integer(), fc.integer(), (a, b) => a + b === b + a)
 
 console.log(fc.check(commutative))
 

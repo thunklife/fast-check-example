@@ -2,11 +2,11 @@
   "name": "fast-check-example",
   "version": "0.0.1",
   "description": "Example of property based testing using fast-check",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "schema": "jest schema.test.js",
-    "add": "node add.js",
-    "multiply": "node add.js"
+    "schema": "jest src/schema.test.js",
+    "add": "node src/add.js",
+    "multiply": "node src/multiply.js"
   },
   "author": "thunklife",
   "license": "MIT",
